@@ -29,7 +29,7 @@ Only for successful requests, respond according to the action executed.
 
 ### `show`
 
-```json
+```js
 {
   "person:" {
     "id": <value>,
@@ -46,7 +46,7 @@ Only for successful requests, respond according to the action executed.
 Note the difference between the top-level (or "root") key for a collection
 response. What number is it?
 
-```json
+```js
 {
   "people": [
     {
